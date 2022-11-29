@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<head>
+    <title>Registration Form</title>
+    <link type="text/css" rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h2>Simple Registration Form</h2>
+    <table>
+        <tr>
+            <td>
+                <form autocomplete="off" onsubmit="onFormSubmit()">
+                    <div>
+                        <label for="fname">Name</label>
+                        <input type="text" name="fname" id="fname">
+                    </div>
+                    <div>
+                        <label for="email">Email Id</label>
+                        <input type="text" name="email" id="email">
+                    </div>
+                    <div>
+                        <label for="age">Age</label>
+                        <input type="text" name="age" id="age">
+                    </div>
+                    <div>
+                        <label for="mobno">Mobile No</label>
+                        <input type="text" name="mobno" id="mobno">
+                    </div>
+
+                    <div class="form_action--button">
+                        <input type="submit" value="Submit">
+                        <input type="reset" value="Reset">
+                    </div>
+                </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Name</th>
+                                <th>Email Id</th>
+                                <th>Mobile No</th>
+                                <th>Age</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+            </td>
+        </tr>
+    </table>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
